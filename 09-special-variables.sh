@@ -14,4 +14,4 @@ echo "Which User running the script: $USER"
 
 echo "Hostname: $HOSTNAME"
 
-echo "Process ID: $$"
+echo "Process ID of Current Shell-Script: $$"
