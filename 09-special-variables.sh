@@ -11,3 +11,5 @@ echo "Current Working Directory: $PWD"
 echo "Home Directory of Current User: $HOME"
 
 echo "Which User running the script: $USER"
+
+echo "Hostname: $HOSTNAME"
