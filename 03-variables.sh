@@ -2,8 +2,8 @@
 
 
 #declaring variables
-PERSON1=Zaheer
-PERSON2=Shaik
+PERSON1=Shaik
+PERSON2=Mohammmed
 
 #referring variables
 echo "$PERSON1:: Hello $PERSON2, how are you?"
