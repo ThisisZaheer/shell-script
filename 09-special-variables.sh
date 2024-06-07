@@ -16,6 +16,5 @@ echo "Hostname: $HOSTNAME"
 
 echo "Process ID of Current Shell-Script: $$"
 
-echo "Process ID of Last Background:$?"
+echo "Process ID of Last Background:$NAME"
 
-sleep 77 &
