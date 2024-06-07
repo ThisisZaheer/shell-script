@@ -1,5 +1,7 @@
 #!/bin/bash
 
+echo "Name of Script: $0"
+
 NO1=$1
 NO2=$2
 
