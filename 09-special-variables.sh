@@ -6,5 +6,5 @@ echo "No.of Variables passed: $#"
 
 echo "Script name: $0"
 
-echo "Current Working Directory: $pwd"
+echo "Current Working Directory: $PWD"
 
