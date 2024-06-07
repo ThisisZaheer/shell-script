@@ -16,4 +16,4 @@ echo "Hostname: $HOSTNAME"
 
 echo "Process ID of Current Shell-Script: $$"
 
-sleep 60
+sleep 55
