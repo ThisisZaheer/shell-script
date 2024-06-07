@@ -1,3 +1,6 @@
 #!/bin/bash
 
-echo "All variables: $@"
+echo "All Variables: $@"
+
+echo "No.of Variables passed: $#"
+
