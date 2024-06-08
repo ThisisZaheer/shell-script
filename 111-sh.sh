@@ -1,7 +1,7 @@
 #!/bin/bash
 
-player1=zaheer
-player2=shaik
+player1=izhaan
+player2=t.m
 
 echo "Hi,Devops"
 
