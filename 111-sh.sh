@@ -20,4 +20,4 @@ echo "what is your atm pin -->"
 
 read -s PIN
 
-echo "Card name --> $SBI, Atm pin --> $PIN"
+echo "Card name --> $BANK, Atm pin --> $PIN"
