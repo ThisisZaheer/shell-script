@@ -8,3 +8,4 @@ echo "First Documentary is: ${DOCUMENTARY[0]}"
 echo "Second Documentary is: ${DOCUMENTARY[1]}"
 echo "All Documentaries is: ${DOCUMENTARY[@]}"
 
+
