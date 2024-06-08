@@ -14,10 +14,10 @@ echo "$player2 keeping is just beyond"
 
 echo "What is your bank atm card name --> "
 
-read SBI
+read -s BANK
 
 echo "what is your atm pin -->"
 
-read PIN
+read -s PIN
 
 echo "Card name --> $SBI, Atm pin --> $PIN"
