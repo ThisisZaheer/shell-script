@@ -3,7 +3,7 @@
 USERID=$(id -u)
 TIMESTAMP=$(date +%F-%H-%M-%S)
 SCRIPT_NAME=$(echo $0 | cut -d "." -f1)
-LOGFILE=$SCRIPT_NAME-$TIMESTAMP.log
+LOGFILE=/tmp/$SCRIPT_NAME-$TIMESTAMP.log
 
 R="\e[31m"
 G="\e[32m"
@@ -16,10 +16,10 @@ N="\e[0m"
 VALIDATE(){
       if [ $1 -ne 0 ]
       then
-          echo -e "$2 is:$R Failed $N"
+          echo -e "$2 is:$RFailed $N"
           exit 1
       else
-          echo -e "$2 is:$G Success $N"
+          echo -e "$2 is:$GSuccess $N"
       fi
 
 }
