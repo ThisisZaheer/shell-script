@@ -6,7 +6,7 @@ VALIDATE(){
    if [ $1 -ne 0 ]
    then 
        echo "$2 is failed"
-       exit 0
+       exit 1
     else
        echo "$2 is success"
     fi
@@ -20,8 +20,8 @@ else
     echo "You are a Super User"
 fi
 
-dnf install mysqld -y
+dnf install mysql -y
 VALIDATE $? "Installing Mysql"
 
-dnf install git -y
+dnf install gitty -y
 VALIDATE $? "Installing git"
