@@ -13,6 +13,8 @@ M="\e[35m"
 C="\e[36m"
 N="\e[0m"
 
+echo "Script started executing at: $TIMESTAMP"
+
 VALIDATE(){
       if [ $1 -ne 0 ]
       then
@@ -38,5 +40,5 @@ VALIDATE(){
 dnf install nginx -y &>>$LOGFILE
 VALIDATE $? "Installation of nginx"
 
-dnf install gccc -y &>>$LOGFILE
+dnf install gcc -y &>>$LOGFILE
 VALIDATE $? "Installation of gcc"
