@@ -1,6 +1,5 @@
 #!/bin/bash
 
-echo "Current Working Directory:$PWD"
 
 DOCUMENTARY=("The Elephant" "The Cat" "The Cheetah")
 
