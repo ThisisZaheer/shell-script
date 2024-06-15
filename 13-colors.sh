@@ -16,10 +16,10 @@ N="\e[0m"
 VALIDATE(){
       if [ $1 -ne 0 ]
       then
-          echo -e "$2 is: $R Failed $N"
+          echo -e "$2 is:$R Failed $N"
           exit 1
       else
-          echo -e "$2 is: $G Success $N"
+          echo -e "$2 is:$G Success $N"
       fi
 
 }
@@ -38,5 +38,5 @@ VALIDATE(){
 dnf install nginx -y &>>$LOGFILE
 VALIDATE $? "Installation of nginx"
 
-dnf install gcc -y &>>$LOGFILE
+dnf install gccc -y &>>$LOGFILE
 VALIDATE $? "Installation of gcc"
