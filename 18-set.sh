@@ -10,24 +10,7 @@ else
    echo "You are Super User"
 fi
 
-dnf install fkfjkjf -y
+dnf install mysql -y
+dnf install git -y
 
-if [ $? -ne o ]
- then
-    echo "Installation of mysql ... FAILURE"
-    exit 1
- else
-    echo "Installation of mysql ... SUCCESS"
- fi   
-
- dnf install gjjjdk -y
-
-if [ $? -ne o ]
- then
-    echo "Installation of git ... FAILURE"
-    exit 1
- else
-    echo "Installation of git ... SUCCESS"
- fi   
-
- echo "Is Script Proceeding???"
+echo "Is Script Proceeding???"
