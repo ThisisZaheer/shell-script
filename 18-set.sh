@@ -10,7 +10,7 @@ else
    echo "You are Super User"
 fi
 
-dnf install mysql -y
-dnf install git -y
+dnf install meow -y
+dnf install gig -y
 
 echo "Is Script Proceeding???"
