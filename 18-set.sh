@@ -10,7 +10,7 @@ else
    echo "You are Super User"
 fi
 
-dnf install Mmysql -y
+dnf install fkfjkjf -y
 
 if [ $? -ne o ]
  then
@@ -20,7 +20,7 @@ if [ $? -ne o ]
     echo "Installation of mysql ... SUCCESS"
  fi   
 
- dnf install Ggit -y
+ dnf install gjjjdk -y
 
 if [ $? -ne o ]
  then
