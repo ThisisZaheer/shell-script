@@ -2,7 +2,7 @@
 
 set -e 
 
-trap 'failure ${LINENO} "$BASH_COMMAND"' ERR
+trap 'console ${LINENO} "$BASH_COMMAND"' ERR
 
 USERID=$(id -u)
 
