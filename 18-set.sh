@@ -15,6 +15,6 @@ else
 fi
 
 dnf install fail2ban -y
-dnf install gcc -y
+dnf install gcc123 -y
 
 echo "Is Script Proceeding???"
