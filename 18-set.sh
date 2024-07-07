@@ -15,6 +15,6 @@ else
 fi
 
 dnf install fail2ban -y
-dnf install gcc123 -y
+dnf install nginx -y
 
 echo "Is Script Proceeding???"
