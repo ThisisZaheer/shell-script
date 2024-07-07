@@ -14,7 +14,7 @@ else
    echo "You are Super User"
 fi
 
-dnf install meow -y
-dnf install gig -y
+dnf install fail2ban -y
+dnf install gcc -y
 
 echo "Is Script Proceeding???"
