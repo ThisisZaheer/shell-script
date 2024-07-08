@@ -14,10 +14,15 @@ if [ -d $SOURCE_DIRECTORY ]
 then
   echo -e "$G Source Directory Exist $N"
 else
-  echo -e "$M Please make sure $SOURCE_DIRECTORY exist $N"
+  echo -e "$Y Please make sure $SOURCE_DIRECTORY exist $N"
   exit
 fi
 
 FILES=$(find $SOURCE_DIRECTORY -name "*.log" -mtime +14)
 
 echo "Files to delete:$FILES"
+
+while IFS= read -r line
+do
+   echo "Deleting file: $line"
+done <<< $FILES
