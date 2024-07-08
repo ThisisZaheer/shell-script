@@ -1,6 +1,6 @@
 #!/bin/bash
 
-SOURCE_DIRECTORY=/tmp/appp-logs
+SOURCE_DIRECTORY=/tmp/app-logs
 
 R="\e[31m"
 G="\e[32m"
@@ -16,4 +16,8 @@ then
 else
   echo -e "$M Please make sure $SOURCE_DIRECTORY exist $N"
   exit
-  fi
+fi
+
+FILES=$(find $SOURCE_DIRECTORY -name "*.log" -mtime +14)
+
+echo "Files to delete:$FILES"
