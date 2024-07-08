@@ -14,6 +14,6 @@ if [ -d $SOURCE_DIRECTORY ]
 then
   echo -e "$G Source Directory Exist $N"
 else
-  echo -e "$R Please make sure $SOURCE_DIRECTORY exist $N"
+  echo -e "$M Please make sure $SOURCE_DIRECTORY exist $N"
   exit
   fi
